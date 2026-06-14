@@ -1,0 +1,8 @@
+/usr/local/lib
+├── @anthropic-ai/claude-code@2.1.29
+├── @google/gemini-cli@0.46.0
+├── @googleworkspace/cli@0.6.3
+├── @kilocode/cli@0.26.1
+├── @openai/codex@0.104.0
+└── codex-monorepo@
+

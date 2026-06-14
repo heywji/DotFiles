@@ -1,0 +1,9 @@
+Host *git*.com
+    User git
+    IdentityFile ~/.ssh/wji_rabbit_mbp
+
+Host *.eng.*.redhat.com
+    User root
+    GSSAPIAuthentication yes
+    StrictHostKeyChecking no
+    UserKnownHostsFile /dev/null

@@ -1,0 +1,84 @@
+{
+  "ui": {
+    "showStatusInTitle": true,
+    "showMemoryUsage": true,
+    "showCitations": true,
+    "showModelInfoInChat": true,
+    "useAlternateBuffer": true
+  },
+  "mcpServers": {
+    "Microsoft Learn MCP Server": {
+      "httpUrl": "https://learn.microsoft.com/api/mcp"
+    },
+    "context7": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@upstash/context7-mcp"
+      ]
+    },
+    "github": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@modelcontextprotocol/server-github"
+      ],
+      "env": {
+        "GITHUB_PERSONAL_ACCESS_TOKEN": "YOUR_GITHUB_PERSONAL_ACCESS_TOKEN_HERE"
+      }
+    },
+    "jira-3rd": {
+      "command": "podman",
+      "args": [
+        "run",
+        "--rm",
+        "-i",
+        "-e",
+        "JIRA_URL",
+        "-e",
+        "JIRA_PERSONAL_TOKEN",
+        "ghcr.io/sooperset/mcp-atlassian:latest"
+      ],
+      "env": {
+        "JIRA_URL": "https://issues.redhat.com",
+        "JIRA_PERSONAL_TOKEN": "YOUR_JIRA_PERSONAL_TOKEN_HERE"
+      }
+    }
+  },
+  "security": {
+    "auth": {
+      "selectedType": "gemini-api-key"
+    },
+    "enablePermanentToolApproval": true,
+    "folderTrust": {
+      "enabled": true
+    }
+  },
+  "general": {
+    "defaultApprovalMode": "plan",
+    "previewFeatures": true,
+    "enableAutoUpdate": true,
+    "enablePromptCompletion": true,
+    "vimMode": false,
+    "debugKeystrokeLogging": true,
+    "plan": {
+      "enabled": true
+    }
+  },
+  "tools": {
+    "shell": {
+      "showColor": true
+    },
+    "autoAccept": true
+  },
+  "experimental": {},
+  "context": {
+    "loadMemoryFromIncludeDirectories": true
+  },
+  "model": {
+    "compressionThreshold": 0.99
+  },
+  "agents": {
+    "overrides": {}
+  }
+}

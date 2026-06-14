@@ -1,23 +1,5 @@
-set laststatus=2
-set showcmd
-set showmatch
-
 set number
 set relativenumber
-set undofile 
-set undodir=~/.vim/undodir
-set noswapfile
-
-set tabstop=4
-set expandtab
-set encoding=utf-8
-set colorcolumn=80
-
-"键盘映射 
-map   <C-A> ^
-"ctrl+A 移动行首
-map   <C-E> $
-"ctrl+E 移动行末
-map   <C-Z> u
-"ctrl+Z 撤销输入
-
+set ts=4
+set cursorcolumn
+set colorcolumn=72

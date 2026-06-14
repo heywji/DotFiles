@@ -1,0 +1,19 @@
+com.discordapp.Discord	1.0.142
+com.qq.QQ	3.2.29
+com.rustdesk.RustDesk	1.4.7
+com.synology.SynologyAssistant	7.0.5
+com.synology.SynologyDrive	4.0.3-17892
+com.tencent.WeChat	4.1.1.7
+com.tencent.wemeet	3.26.10.401
+io.typora.Typora	1.13.4
+org.fedoraproject.MediaWriter	5.3.1
+org.freedesktop.Platform	freedesktop-sdk-25.08.12
+org.freedesktop.Platform.GL.default	26.0.6
+org.freedesktop.Platform.GL.default	26.0.6
+org.freedesktop.Platform.VAAPI.Intel
+org.freedesktop.Platform.codecs-extra
+org.freedesktop.Sdk	freedesktop-sdk-25.08.12
+org.gnome.Platform
+org.kde.KStyle.Adwaita
+org.kde.Platform
+org.telegram.desktop	6.9.3
