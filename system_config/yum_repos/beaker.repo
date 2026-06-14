@@ -1,0 +1,11 @@
+[beaker-client]
+name=Beaker Client - Fedora$releasever
+baseurl=https://download.eng.bos.redhat.com/beakerrepos/client/Fedora$releasever/
+enabled=0
+gpgcheck=0
+
+[beaker-client-testing]
+name=Beaker Client - Fedora$releasever - Testing
+baseurl=https://download.eng.bos.redhat.com/beakerrepos/client-testing/Fedora$releasever/
+enabled=0
+gpgcheck=0
